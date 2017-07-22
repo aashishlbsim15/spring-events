@@ -22,9 +22,4 @@
     </bean>
 
 
-
-    <bean id="personDao" class="com.bootcamp.events.jdbc.PersonDaoImpl">
-        <property name="dataSource" ref="dataSource" />
-    </bean>
-
 </beans>
